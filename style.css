@@ -1,0 +1,80 @@
+body{
+    background: #aa4b6b;
+    background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
+    background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+ 
+@font-face:{ 
+    font-family: 'Cinzel', serif;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+.hovered:hover{
+    font-size: 180%;
+}
+
+section{
+
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1{
+    max-width: 80%;
+    border: 2px solid rgb(194, 159, 203);
+    margin: 3px;
+    text-align: center;
+    color: white;
+    font-family:"Nothing You Could Do";
+    font-style: "cursive";
+    padding: 3%;
+    position: static;
+    
+}
+
+ #sub{
+     color: bisque;
+     font-size: 35px;
+
+
+}
+.CardsContainer{
+
+
+    border: 2px solid black;
+    margin: 3px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #7F7FD5;  
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); 
+    
+    
+}
+
+.CardsImg{
+
+    width: 280px;
+    border-radius: 13% 0 13% 0;
+
+}
+
+.CardsTexto{
+
+  font-family: "Cinzel";
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+}
